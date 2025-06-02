@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_powarprashant_harness_springboot_1748842076174-push-trigger-input-set
+  identifier: Build_powarprashant_harness_springboot_1748842076174pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: EndtoEnd
+  pipeline:
+    identifier: Build_powarprashant_harness_springboot_1748842076174
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
